@@ -6,10 +6,15 @@
 
 * ************/
 html{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 1rem;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 95%);
+}
+body {
+    margin: 0px;
+    padding: 0px;
 }
 /* ************
 
@@ -23,7 +28,7 @@ For typical mobile devices
     box-sizing: border-box;
 }
     .wrapper {
-    max-width: 320px;
+    max-width: 479px;
     margin: 0 auto;
 }
 .wrapper {
@@ -32,9 +37,33 @@ For typical mobile devices
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
-.header, .footer{
+header{
     grid-column: 1/ 5;
-    grid-row: 4;
-    border:.1rem dotted black;
+    grid-row: 1;
+    border:.2rem dotted hsl(95, 65%, 55%);
+    width: 100%;
+    height: 50vh;
 }
+nav {
+    margin-top: 43vh;
+    margin-left: 25%;
+    display: inline-block;
+    border:.2rem dotted hsl(95, 65%, 55%);
+}
+.presentation{
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+.paragraphe {
+    margin-top:5vh;
+    padding:.5rem;
+    border:.2rem dotted hsl(95, 65%, 55%);
+}
+footer{
+    grid-column: 1/ 5;
+    grid-row: 3;
+    border:.2rem dotted hsl(95, 65%, 55%);
+    width: 100%;
+    height: 25vh;
+
 }
