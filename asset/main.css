@@ -88,7 +88,8 @@ form {
     margin-top:20rem;
     grid-column: 2 / 4;
     grid-row: 2;
-    border:.2rem dotted hsl(95, 65%, 55%);
+    border:.1rem solid hsl(95, 65%, 55%);
+    border-radius:10px;
     width:100%;
 
 }
@@ -109,14 +110,14 @@ input {
     width:45vw;
     box-sizing: border-box;
     border:.1rem dotted black;
-    margin-left:.15rem;
+    margin-left:.25rem;
 
 }
 textarea{
 
     height:13rem;
     width: 45vw;
-    margin-left:.15rem;
+    margin-left:.25rem;
     border:.1rem dotted black;
 
 }
