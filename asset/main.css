@@ -82,9 +82,10 @@ footer{
 
     grid-column: 2 / 4;
     grid-row: 2;
+    margin:.1rem;
 }
 form {
-    margin-top: 40vh;
+    margin-top:20rem;
     grid-column: 2 / 4;
     grid-row: 2;
     border:.2rem dotted hsl(95, 65%, 55%);
@@ -107,12 +108,15 @@ input {
     font: 1rem sans-serif;
     width:45vw;
     box-sizing: border-box;
-    margin-left:.25rem;
+    border:.1rem dotted black;
+    margin-left:.15rem;
 
 }
 textarea{
 
     height:13rem;
     width: 45vw;
-    margin-left:.25rem;
+    margin-left:.15rem;
+    border:.1rem dotted black;
+
 }
