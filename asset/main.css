@@ -16,6 +16,11 @@ body {
     margin: 0px;
     padding: 0px;
 }
+h2{
+
+    font-size:1.2rem;
+    padding-left: 1rem;
+}
 /* ************
 
 For typical mobile devices
@@ -41,7 +46,7 @@ header{
     grid-column: 1/ 5;
     grid-row: 1;
     border:.2rem dotted hsl(95, 65%, 55%);
-    width: 100%;
+    width: 100vw;
     height: 50vh;
 }
 nav {
@@ -53,9 +58,9 @@ nav {
 
 footer{
     grid-column: 1/ 5;
-    grid-row: 3;
+    grid-row:3;
     border:.2rem dotted hsl(95, 65%, 55%);
-    width: 100%;
+    width:100vw;
     height: 25vh;
 
 }
@@ -81,14 +86,13 @@ footer{
 .information {
 
     grid-column: 2 / 4;
-    grid-row: 2;
+    grid-row: 1;
     margin:.1rem;
 }
 /*.avertissement{} */
-form {
-    margin-top:19rem;
+#joindre{
     grid-column: 2 / 4;
-    grid-row: 2;
+    grid-row: 1;
     border:.1rem dashed hsl(95, 65%, 55%);
     border-radius:10px;
     width:100%;
@@ -134,3 +138,15 @@ textarea{
  Page Prestation
 
 * ************/
+.forfait{
+
+    grid-column: 2 / 4;
+    grid-row:1 ;
+    margin-top:2rem;
+}
+#choixprestation{
+
+    grid-column: 2 / 4;
+    grid-row: 1 ;
+    margin-top:2rem;
+}
