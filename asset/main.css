@@ -163,6 +163,10 @@ html {
       margin-top: 2rem;
 
     }
+    .prestation {
+
+      margin:1rem;
+    }
     #ChoixPrestation {
 
       grid-column: 2 / 4;
@@ -300,6 +304,14 @@ html {
       grid-row: 1;
       margin-top: 2rem;
       
+    }
+    .prestation {
+
+      margin:1rem;
+    }
+    .prestation {
+
+      margin:1rem;
     }
     #ChoixPrestation {
 
@@ -441,13 +453,16 @@ html {
         * ************/
     .forfait {
 
-      grid-column: 4 / 6;
+      grid-column: 3 / 7;
       grid-row: 1;
       margin-top: 2rem;
     }
+    .prestation {
 
+      margin:1rem;
+    }
     #ChoixPrestation {
-      grid-column: 4 / 6;
+      grid-column: 3 / 7;
       grid-row: 1;
       margin-top: 2rem;
       box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
@@ -584,13 +599,17 @@ html {
       * ************/
     .forfait {
 
-      grid-column: 5 / 8;
+      grid-column: 4 / 8;
       grid-row: 1;
       margin-top: 2rem;
     }
+    .prestation {
+
+      margin:1rem;
+    }
     #choixprestation {
 
-      grid-column: 5 / 8;
+      grid-column: 4 / 8;
       grid-row: 1;
       margin-top: 2rem;
       box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
@@ -726,13 +745,19 @@ html {
       * ************/
     .forfait {
 
-      grid-column: 6 / 9;
+      grid-column: 4 / 10;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+    }
+    .prestation {
+
+      margin:1rem;
     }
     #ChoixPrestation {
 
-      grid-column: 6 / 9;
+      grid-column: 4 / 10;
       grid-row: 1;
       margin-top: 2rem;
       box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
@@ -869,15 +894,19 @@ html {
       * ************/
     .forfait {
 
-      grid-column: 5 / 10;
+      grid-column: 4 / 10;
       grid-row: 1;
       margin-top: 2rem;
       box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
       border-radius: 32px;
     }
+    .prestation {
+
+      margin:1rem;
+    }
     #ChoixPrestation {
 
-      grid-column: 5 / 10;
+      grid-column: 4 / 10;
       grid-row: 1;
       margin-top: 2rem;
       box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
