@@ -84,7 +84,7 @@ footer{
     grid-row: 2;
     margin:.1rem;
 }
-.avertissement{}
+/*.avertissement{} */
 form {
     margin-top:19rem;
     grid-column: 2 / 4;
@@ -129,3 +129,8 @@ textarea{
     border-radius:32px;
 
 }
+/* ************
+
+ Page Prestation
+
+* ************/
