@@ -15,11 +15,14 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     background-color: hsl(0, 0%, 95%);
+
   }
   
   body {
     margin: 0px;
     padding: 0px;
+    font-size: calc(16px + 1vw);
+
   }
   /* *********
 
@@ -29,15 +32,20 @@ html {
 
   h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: calc(20px + 1.5vw);
   }
   
   h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     padding-left: 1rem;
+    font-size: calc(20px + 1.5vw);
+
   }
   a {
       margin-left: 10px;
+  }
+  p {
   }
   
   /* ************
@@ -62,7 +70,7 @@ html {
       grid-auto-rows: minmax(100px, auto);
     }
     header {
-      grid-column: 1/ 5;
+      grid-column: 1/ 4;
       grid-row: 1;
       border: .2rem dotted hsl(95, 65%, 55%);
       width: 98.90vw;
@@ -74,10 +82,10 @@ html {
       border: .2rem dotted hsl(95, 65%, 55%);
     }
     footer {
-      grid-column: 1/ 5;
+      grid-column: 1/ 4;
       grid-row: 3;
       border: .2rem dotted hsl(95, 65%, 55%);
-      width: 98.90vw
+      width: 98.90vw;
       height: 30vh;
     }
     /* ************
@@ -88,11 +96,14 @@ html {
     .presentation {
       grid-column: 2 / 4;
       grid-row: 2;
+
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
+
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
     }
     /* ***********
     
@@ -100,16 +111,20 @@ html {
     
     * ************/
     .information {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 2 / 4;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width: 100%;
     }
     .formul {
@@ -145,14 +160,20 @@ html {
     
     * ************/
     .forfait {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin-top: 2rem;
+
     }
-    #choixprestation {
+    #ChoixPrestation {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
     
@@ -164,7 +185,7 @@ html {
       grid-row: 2 auto;
     }
     .responsive {
-      width: 98.90vw;
+      width: 97.90vw;
       height: auto;
     }
   }
@@ -216,10 +237,11 @@ html {
       grid-column: 2 / 4;
       grid-row: 2;
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
     }
     /* ***********
       
@@ -227,16 +249,20 @@ html {
       
       * ************/
     .information {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 2 / 4;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width: 100%;
     }
     .formul {
@@ -272,14 +298,20 @@ html {
       
       * ************/
     .forfait {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin-top: 2rem;
+      
     }
-    #choixprestation {
+    #ChoixPrestation {
+
       grid-column: 2 / 4;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
       
@@ -349,10 +381,12 @@ html {
       grid-column: 4 / 6;
       grid-row: 2;
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
     }
     /* ***********
         
@@ -360,16 +394,20 @@ html {
         
         * ************/
     .information {
+
       grid-column: 4 / 6;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 3 / 8;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width: 100%;
     }
     .formul {
@@ -405,14 +443,19 @@ html {
         
         * ************/
     .forfait {
+
       grid-column: 4 / 6;
       grid-row: 1;
       margin-top: 2rem;
     }
-    #choixprestation {
+
+    #ChoixPrestation {
       grid-column: 4 / 6;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
         
@@ -424,7 +467,7 @@ html {
       grid-row: 2 auto;
     }
     .responsive {
-      width: 98.90vw;
+      width: 97.90vw;
       height: auto;
     }
   }
@@ -481,10 +524,12 @@ html {
       grid-column: 5 / 8;
       grid-row: 2;
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
     }
     /* ***********
       
@@ -492,16 +537,20 @@ html {
       
       * ************/
     .information {
+
       grid-column: 5 / 8;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 5 / 8;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width: 100%;
     }
     .formul {
@@ -537,14 +586,19 @@ html {
       
       * ************/
     .forfait {
+
       grid-column: 5 / 8;
       grid-row: 1;
       margin-top: 2rem;
     }
     #choixprestation {
+
       grid-column: 5 / 8;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
       
@@ -583,24 +637,23 @@ html {
       grid-auto-rows: minmax(100px, auto);
     }
     header {
-      grid-column: 1/ 13;
+      grid-column: 1/ 12;
       grid-row: 1;
       border: .2rem dotted hsl(95, 65%, 55%);
       width: 98.90vw;
       height: 55vh;
 
       background-image: url('../images/header.jpg');
-      bac
     }
     nav {
       border: .2rem dotted hsl(95, 65%, 55%);
       background-color: white;
     }
     footer {
-      grid-column: 1/ 13;
+      grid-column: 1/ 12;
       grid-row: 3;
       border: .2rem dotted hsl(95, 65%, 55%);
-      width: 998.90vw;
+      width: 98.90vw;
       height: 30vh;
     }
     /* ************
@@ -612,10 +665,12 @@ html {
       grid-column: 6 / 8;
       grid-row: 2;
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
     }
     /* ***********
       
@@ -623,17 +678,22 @@ html {
       
       * ************/
     .information {
+
       grid-column: 6 / 9;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 6 / 8;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width:24.5vw;
+
     }
     .formul {
       margin-top: 1rem;
@@ -668,14 +728,19 @@ html {
       
       * ************/
     .forfait {
-      grid-column: 6 / 8;
+
+      grid-column: 6 / 9;
       grid-row: 1;
       margin-top: 2rem;
     }
-    #choixprestation {
-      grid-column: 6 / 8;
+    #ChoixPrestation {
+
+      grid-column: 6 / 9;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
       
@@ -683,11 +748,11 @@ html {
       
       * ************/
     div {
-      grid-column: 1 / 13;
+      grid-column: 1 / 12;
       grid-row: 2 auto;
     }
     .responsive {
-      width: 98.90vw;
+      width: 97.90vw;
       height: auto;
     }
   }
@@ -704,20 +769,20 @@ html {
       box-sizing: border-box;
     }
     .wrapper {
-      max-width: 2560px;
+      max-width: 2565px;
       margin: 0 auto;
     }
     .wrapper {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-gap: 10px;
+      grid-gap:5px;
       grid-auto-rows: minmax(100px, auto);
     }
     header {
       grid-column: 1/ 12;
       grid-row: 1;
       border: .2rem dotted hsl(95, 65%, 55%);
-      width: 98.90vw;
+      width: 98.99vw;
       height: 100vh;
 
       background-image: url('../images/header.jpg');
@@ -732,7 +797,7 @@ html {
       grid-column: 1/ 12;
       grid-row: 3;
       border: .2rem dotted hsl(95, 65%, 55%);
-      width: 98.90vw;
+      width: 98.99vw;
       height: 30vh;
     }
     /* ************
@@ -741,13 +806,15 @@ html {
       
       * ************/
     .presentation {
-      grid-column: 6 / 8;
+      grid-column: 4 / 10;
       grid-row: 2;
     }
-    .paragraphe {
+    .PresentationParagraphe {
       margin-top: 5vh;
       padding: .5rem;
       border: .2rem dotted hsl(95, 65%, 55%);
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
     }
     /* ***********
       
@@ -755,16 +822,20 @@ html {
       
       * ************/
     .information {
+
       grid-column: 5 / 9;
       grid-row: 1;
       margin: .1rem;
     }
     /*.avertissement{} */
     #joindre {
+
       grid-column: 5 / 9;
       grid-row: 1;
       border: .1rem dashed hsl(95, 65%, 55%);
       border-radius: 10px;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+
       width:41.5vw;
     }
     .formul {
@@ -790,7 +861,7 @@ html {
       border: .1rem dotted black;
     }
     .envoyer {
-      margin-left: .50rem;
+      margin-left: 1.5rem;
       margin-bottom: .25rem;
       border-radius: 32px;
     }
@@ -800,14 +871,21 @@ html {
       
       * ************/
     .forfait {
-      grid-column: 5 / 9;
+
+      grid-column: 5 / 10;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
     }
-    #choixprestation {
-      grid-column: 5 / 9;
+    #ChoixPrestation {
+
+      grid-column: 5 / 10;
       grid-row: 1;
       margin-top: 2rem;
+      box-shadow: 0px 5px 32px -9px hsl(0, 2%, 57%);
+      border-radius: 32px;
+
     }
     /* ***********
       
@@ -815,11 +893,11 @@ html {
       
       * ************/
     div {
-      grid-column: 1 / 13;
+      grid-column: 1 / 12;
       grid-row: 2 auto;
     }
     .responsive {
-      width: 98.90vw;
+      width: 97.90vw;
       height: auto;
     }
   }
