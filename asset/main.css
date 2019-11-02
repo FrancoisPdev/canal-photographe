@@ -1,4 +1,4 @@
-  /* *********** 
+/* *********** 
 
 
     reset 
@@ -31,11 +31,11 @@ html {
   
   
   /* ************
-  
-  For typical mobile devices
-  
-  
-  * ************/
+    
+    For typical mobile devices
+    
+    
+    * ************/
   
   @media only screen and (min-width: 320px) and (max-width: 479px) {
     * {
@@ -64,7 +64,7 @@ html {
       display: inline-block;
       border: .2rem dotted hsl(95, 65%, 55%);
     }
-    footer {
+    */ footer {
       grid-column: 1/ 5;
       grid-row: 3;
       border: .2rem dotted hsl(95, 65%, 55%);
@@ -72,10 +72,10 @@ html {
       height: 30vh;
     }
     /* ************
-  
-      Page Index
-  
-  * ************/
+    
+        Page Index
+    
+    * ************/
     .presentation {
       grid-column: 2 / 4;
       grid-row: 2;
@@ -86,10 +86,10 @@ html {
       border: .2rem dotted hsl(95, 65%, 55%);
     }
     /* ***********
-  
-      Page Contact
-  
-  * ************/
+    
+        Page Contact
+    
+    * ************/
     .information {
       grid-column: 2 / 4;
       grid-row: 1;
@@ -131,10 +131,10 @@ html {
       border-radius: 32px;
     }
     /* ************
-  
-   Page Prestation
-  
-  * ************/
+    
+     Page Prestation
+    
+    * ************/
     .forfait {
       grid-column: 2 / 4;
       grid-row: 1;
@@ -146,10 +146,10 @@ html {
       margin-top: 2rem;
     }
     /* ***********
-  
-      Page Carousel
-  
-  * ************/
+    
+        Page Carousel
+    
+    * ************/
     div {
       grid-column: 1/5;
       grid-row: 2 auto;
@@ -158,515 +158,650 @@ html {
       width: 100vw;
       height: auto;
     }
-}
-    /* *********
+  }
   
-      For mobile (landscape)
   
-  * ************/
+  /* *********
+    
+        For mobile (landscape)
+    
+    * ************/
+  
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-
-        * {
-            box-sizing: border-box;
-          }
-          .wrapper {
-            max-width: 767px;
-            margin: 0 auto;
-          }
-          .wrapper {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 10px;
-            grid-auto-rows: minmax(100px, auto);
-          }
-          header {
-
-            border: .2rem dotted hsl(95, 65%, 55%);
-            width: 100vw;
-            height: 55vh;
-          }
-          nav {
-
-
-            display: inline-block;
-            border: .2rem dotted hsl(95, 65%, 55%);
-          }
-          footer {
-            grid-column: 1/ 5;
-            grid-row: 3;
-            border: .2rem dotted hsl(95, 65%, 55%);
-            width: 100vw;
-            height: 30vh;
-          }
-    /* ************
-  
-      Page Index
-  
-  * ************/
-    .presentation {
-        grid-column: 2 / 4;
-        grid-row: 2;
-      }
-      .paragraphe {
-        margin-top: 5vh;
-        padding: .5rem;
-        border: .2rem dotted hsl(95, 65%, 55%);
-      }
-      /* ***********
-    
-        Page Contact
-    
-    * ************/
-      .information {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin: .1rem;
-      }
-      /*.avertissement{} */
-      #joindre {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        border: .1rem dashed hsl(95, 65%, 55%);
-        border-radius: 10px;
-        width: 100%;
-      }
-      .formul {
-        margin-top: 1rem;
-      }
-      label {
-        display: inline-block;
-        text-align: left;
-        margin-left: .5rem;
-        width: 35vw;
-      }
-      input {
-        font: 1rem sans-serif;
-        width: 45vw;
-        box-sizing: border-box;
-        border: .1rem dotted black;
-        margin-left: .25rem;
-      }
-      textarea {
-        height: 13rem;
-        width: 45vw;
-        margin-left: .25rem;
-        border: .1rem dotted black;
-      }
-      .envoyer {
-        margin-left: .50rem;
-        margin-bottom: .25rem;
-        border-radius: 32px;
-      }
-      /* ************
-    
-     Page Prestation
-    
-    * ************/
-      .forfait {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      #choixprestation {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      /* ***********
-    
-        Page Carousel
-    
-    * ************/
-      div {
-        grid-column: 1/5;
-        grid-row: 2 auto;
-      }
-      .responsive {
-        width: 100vw;
-        height: auto;
-      }
+    * {
+      box-sizing: border-box;
     }
-/* ***********
-
-tablette
-
-* ***********/
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-
-        * {
-          box-sizing: border-box;
-        }
-        .wrapper {
-          max-width: 979px;
-          margin: 0 auto;
-        }
-        .wrapper {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          grid-gap: 10px;
-          grid-auto-rows: minmax(100px, auto);
-        }
-        header {
-          grid-column: 1/ 5;
-          grid-row: 1;
-          border: .2rem dotted hsl(95, 65%, 55%);
-          width: 100vw;
-          height: 55vh;
-        }
-        nav {
-          margin-top: 43vh;
-          margin-left: 25%;
-          display: inline-block;
-          border: .2rem dotted hsl(95, 65%, 55%);
-        }
-        footer {
-          grid-column: 1/ 5;
-          grid-row: 3;
-          border: .2rem dotted hsl(95, 65%, 55%);
-          width: 100vw;
-          height: 30vh;
-        }
-        /* ************
-      
-          Page Index
-      
-      * ************/
-        .presentation {
-          grid-column: 2 / 4;
-          grid-row: 2;
-        }
-        .paragraphe {
-          margin-top: 5vh;
-          padding: .5rem;
-          border: .2rem dotted hsl(95, 65%, 55%);
-        }
-        /* ***********
+    .wrapper {
+      max-width: 767px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    header {
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 55vh;
+    }
+    nav {
+      display: inline-block;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    footer {
+      grid-column: 1/ 5;
+      grid-row: 3;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 30vh;
+    }
+    /* ************
+    
+        Page Index
+    
+    * ************/
+    .presentation {
+      grid-column: 2 / 4;
+      grid-row: 2;
+    }
+    .paragraphe {
+      margin-top: 5vh;
+      padding: .5rem;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    /* ***********
       
           Page Contact
       
       * ************/
-        .information {
-          grid-column: 2 / 4;
-          grid-row: 1;
-          margin: .1rem;
-        }
-        /*.avertissement{} */
-        #joindre {
-          grid-column: 2 / 4;
-          grid-row: 1;
-          border: .1rem dashed hsl(95, 65%, 55%);
-          border-radius: 10px;
-          width: 100%;
-        }
-        .formul {
-          margin-top: 1rem;
-        }
-        label {
-          display: inline-block;
-          text-align: left;
-          margin-left: .5rem;
-          width: 35vw;
-        }
-        input {
-          font: 1rem sans-serif;
-          width: 45vw;
-          box-sizing: border-box;
-          border: .1rem dotted black;
-          margin-left: .25rem;
-        }
-        textarea {
-          height: 13rem;
-          width: 45vw;
-          margin-left: .25rem;
-          border: .1rem dotted black;
-        }
-        .envoyer {
-          margin-left: .50rem;
-          margin-bottom: .25rem;
-          border-radius: 32px;
-        }
-        /* ************
+    .information {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin: .1rem;
+    }
+    /*.avertissement{} */
+    #joindre {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      border: .1rem dashed hsl(95, 65%, 55%);
+      border-radius: 10px;
+      width: 100%;
+    }
+    .formul {
+      margin-top: 1rem;
+    }
+    label {
+      display: inline-block;
+      text-align: left;
+      margin-left: .5rem;
+      width: 35vw;
+    }
+    input {
+      font: 1rem sans-serif;
+      width: 45vw;
+      box-sizing: border-box;
+      border: .1rem dotted black;
+      margin-left: .25rem;
+    }
+    textarea {
+      height: 13rem;
+      width: 45vw;
+      margin-left: .25rem;
+      border: .1rem dotted black;
+    }
+    .envoyer {
+      margin-left: .50rem;
+      margin-bottom: .25rem;
+      border-radius: 32px;
+    }
+    /* ************
       
        Page Prestation
       
       * ************/
-        .forfait {
-          grid-column: 2 / 4;
-          grid-row: 1;
-          margin-top: 2rem;
-        }
-        #choixprestation {
-          grid-column: 2 / 4;
-          grid-row: 1;
-          margin-top: 2rem;
-        }
-        /* ***********
+    .forfait {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    #choixprestation {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    /* ***********
       
           Page Carousel
       
       * ************/
-        div {
-          grid-column: 1/5;
-          grid-row: 2 auto;
-        }
-        .responsive {
-          width: 100vw;
-          height: auto;
-        }
+    div {
+      grid-column: 1/5;
+      grid-row: 2 auto;
     }
-/* ***********
-
-For small desktop
-
-* ***********/
-@media only screen and (min-width: 980px) and (max-width: 1023px) {
-
+    .responsive {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+  
+  /* ***********
+  
+  tablette
+  
+  * ***********/
+  
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
     * {
-        box-sizing: border-box;
-      }
-      .wrapper {
-        max-width: 1023px;
-        margin: 0 auto;
-      }
-      .wrapper {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
-      }
-      header {
-        grid-column: 1/ 5;
-        grid-row: 1;
-        border: .2rem dotted hsl(95, 65%, 55%);
-        width: 100vw;
-        height: 55vh;
-      }
-      nav {
-        margin-top: 43vh;
-        margin-left: 25%;
-        display: inline-block;
-        border: .2rem dotted hsl(95, 65%, 55%);
-      }
-      footer {
-        grid-column: 1/ 5;
-        grid-row: 3;
-        border: .2rem dotted hsl(95, 65%, 55%);
-        width: 100vw;
-        height: 30vh;
-      }
-      /* ************
-    
-        Page Index
-    
-    * ************/
-      .presentation {
-        grid-column: 2 / 4;
-        grid-row: 2;
-      }
-      .paragraphe {
-        margin-top: 5vh;
-        padding: .5rem;
-        border: .2rem dotted hsl(95, 65%, 55%);
-      }
-      /* ***********
-    
-        Page Contact
-    
-    * ************/
-      .information {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin: .1rem;
-      }
-      /*.avertissement{} */
-      #joindre {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        border: .1rem dashed hsl(95, 65%, 55%);
-        border-radius: 10px;
-        width: 100%;
-      }
-      .formul {
-        margin-top: 1rem;
-      }
-      label {
-        display: inline-block;
-        text-align: left;
-        margin-left: .5rem;
-        width: 35vw;
-      }
-      input {
-        font: 1rem sans-serif;
-        width: 45vw;
-        box-sizing: border-box;
-        border: .1rem dotted black;
-        margin-left: .25rem;
-      }
-      textarea {
-        height: 13rem;
-        width: 45vw;
-        margin-left: .25rem;
-        border: .1rem dotted black;
-      }
-      .envoyer {
-        margin-left: .50rem;
-        margin-bottom: .25rem;
-        border-radius: 32px;
-      }
-      /* ************
-    
-     Page Prestation
-    
-    * ************/
-      .forfait {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      #choixprestation {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      /* ***********
-    
-        Page Carousel
-    
-    * ************/
-      div {
-        grid-column: 1/5;
-        grid-row: 2 auto;
-      }
-      .responsive {
-        width: 100vw;
-        height: auto;
-      }
-}
-/* ***********
-
-    For typical desktop
-
-* ***********/
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-
+      box-sizing: border-box;
+    }
+    .wrapper {
+      max-width: 979px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    header {
+      grid-column: 1/ 5;
+      grid-row: 1;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 55vh;
+    }
+    nav {
+      margin-top: 43vh;
+      margin-left: 25%;
+      display: inline-block;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    footer {
+      grid-column: 1/ 5;
+      grid-row: 3;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 30vh;
+    }
+    /* ************
+        
+            Page Index
+        
+        * ************/
+    .presentation {
+      grid-column: 2 / 4;
+      grid-row: 2;
+    }
+    .paragraphe {
+      margin-top: 5vh;
+      padding: .5rem;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    /* ***********
+        
+            Page Contact
+        
+        * ************/
+    .information {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin: .1rem;
+    }
+    /*.avertissement{} */
+    #joindre {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      border: .1rem dashed hsl(95, 65%, 55%);
+      border-radius: 10px;
+      width: 100%;
+    }
+    .formul {
+      margin-top: 1rem;
+    }
+    label {
+      display: inline-block;
+      text-align: left;
+      margin-left: .5rem;
+      width: 35vw;
+    }
+    input {
+      font: 1rem sans-serif;
+      width: 45vw;
+      box-sizing: border-box;
+      border: .1rem dotted black;
+      margin-left: .25rem;
+    }
+    textarea {
+      height: 13rem;
+      width: 45vw;
+      margin-left: .25rem;
+      border: .1rem dotted black;
+    }
+    .envoyer {
+      margin-left: .50rem;
+      margin-bottom: .25rem;
+      border-radius: 32px;
+    }
+    /* ************
+        
+         Page Prestation
+        
+        * ************/
+    .forfait {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    #choixprestation {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    /* ***********
+        
+            Page Carousel
+        
+        * ************/
+    div {
+      grid-column: 1/5;
+      grid-row: 2 auto;
+    }
+    .responsive {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+  
+  /* ***********
+  
+  For small desktop
+  
+  * ***********/
+  
+  @media only screen and (min-width: 980px) and (max-width: 1023px) {
     * {
-        box-sizing: border-box;
-      }
-      .wrapper {
-        max-width: 1199px;
-        margin: 0 auto;
-      }
-      .wrapper {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
-      }
-      header {
-        grid-column: 1/ 5;
-        grid-row: 1;
-        border: .2rem dotted hsl(95, 65%, 55%);
-        width: 100vw;
-        height: 55vh;
-      }
-      nav {
-        margin-top: 43vh;
-        margin-left: 25%;
-        display: inline-block;
-        border: .2rem dotted hsl(95, 65%, 55%);
-      }
-      footer {
-        grid-column: 1/ 5;
-        grid-row: 3;
-        border: .2rem dotted hsl(95, 65%, 55%);
-        width: 100vw;
-        height: 30vh;
-      }
-      /* ************
-    
-        Page Index
-    
-    * ************/
-      .presentation {
-        grid-column: 2 / 4;
-        grid-row: 2;
-      }
-      .paragraphe {
-        margin-top: 5vh;
-        padding: .5rem;
-        border: .2rem dotted hsl(95, 65%, 55%);
-      }
-      /* ***********
-    
-        Page Contact
-    
-    * ************/
-      .information {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin: .1rem;
-      }
-      /*.avertissement{} */
-      #joindre {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        border: .1rem dashed hsl(95, 65%, 55%);
-        border-radius: 10px;
-        width: 100%;
-      }
-      .formul {
-        margin-top: 1rem;
-      }
-      label {
-        display: inline-block;
-        text-align: left;
-        margin-left: .5rem;
-        width: 35vw;
-      }
-      input {
-        font: 1rem sans-serif;
-        width: 45vw;
-        box-sizing: border-box;
-        border: .1rem dotted black;
-        margin-left: .25rem;
-      }
-      textarea {
-        height: 13rem;
-        width: 45vw;
-        margin-left: .25rem;
-        border: .1rem dotted black;
-      }
-      .envoyer {
-        margin-left: .50rem;
-        margin-bottom: .25rem;
-        border-radius: 32px;
-      }
-      /* ************
-    
-     Page Prestation
-    
-    * ************/
-      .forfait {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      #choixprestation {
-        grid-column: 2 / 4;
-        grid-row: 1;
-        margin-top: 2rem;
-      }
-      /* ***********
-    
-        Page Carousel
-    
-    * ************/
-      div {
-        grid-column: 1/5;
-        grid-row: 2 auto;
-      }
-      .responsive {
-        width: 100vw;
-        height: auto;
-      }
-}
+      box-sizing: border-box;
+    }
+    .wrapper {
+      max-width: 1023px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    header {
+      grid-column: 1/ 5;
+      grid-row: 1;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 55vh;
+    }
+    nav {
+      margin-top: 43vh;
+      margin-left: 25%;
+      display: inline-block;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    footer {
+      grid-column: 1/ 5;
+      grid-row: 3;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 30vh;
+    }
+    /* ************
+      
+          Page Index
+      
+      * ************/
+    .presentation {
+      grid-column: 2 / 4;
+      grid-row: 2;
+    }
+    .paragraphe {
+      margin-top: 5vh;
+      padding: .5rem;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    /* ***********
+      
+          Page Contact
+      
+      * ************/
+    .information {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin: .1rem;
+    }
+    /*.avertissement{} */
+    #joindre {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      border: .1rem dashed hsl(95, 65%, 55%);
+      border-radius: 10px;
+      width: 100%;
+    }
+    .formul {
+      margin-top: 1rem;
+    }
+    label {
+      display: inline-block;
+      text-align: left;
+      margin-left: .5rem;
+      width: 35vw;
+    }
+    input {
+      font: 1rem sans-serif;
+      width: 45vw;
+      box-sizing: border-box;
+      border: .1rem dotted black;
+      margin-left: .25rem;
+    }
+    textarea {
+      height: 13rem;
+      width: 45vw;
+      margin-left: .25rem;
+      border: .1rem dotted black;
+    }
+    .envoyer {
+      margin-left: .50rem;
+      margin-bottom: .25rem;
+      border-radius: 32px;
+    }
+    /* ************
+      
+       Page Prestation
+      
+      * ************/
+    .forfait {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    #choixprestation {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    /* ***********
+      
+          Page Carousel
+      
+      * ************/
+    div {
+      grid-column: 1/5;
+      grid-row: 2 auto;
+    }
+    .responsive {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+  
+  /* ***********
+  
+      For typical desktop
+  
+  * ***********/
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    * {
+      box-sizing: border-box;
+    }
+    .wrapper {
+      max-width: 1199px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    header {
+      grid-column: 1/ 5;
+      grid-row: 1;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 55vh;
+    }
+    nav {
+      margin-top: 43vh;
+      margin-left: 25%;
+      display: inline-block;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    footer {
+      grid-column: 1/ 5;
+      grid-row: 3;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 100vw;
+      height: 30vh;
+    }
+    /* ************
+      
+          Page Index
+      
+      * ************/
+    .presentation {
+      grid-column: 2 / 4;
+      grid-row: 2;
+    }
+    .paragraphe {
+      margin-top: 5vh;
+      padding: .5rem;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    /* ***********
+      
+          Page Contact
+      
+      * ************/
+    .information {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin: .1rem;
+    }
+    /*.avertissement{} */
+    #joindre {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      border: .1rem dashed hsl(95, 65%, 55%);
+      border-radius: 10px;
+      width: 100%;
+    }
+    .formul {
+      margin-top: 1rem;
+    }
+    label {
+      display: inline-block;
+      text-align: left;
+      margin-left: .5rem;
+      width: 35vw;
+    }
+    input {
+      font: 1rem sans-serif;
+      width: 45vw;
+      box-sizing: border-box;
+      border: .1rem dotted black;
+      margin-left: .25rem;
+    }
+    textarea {
+      height: 13rem;
+      width: 45vw;
+      margin-left: .25rem;
+      border: .1rem dotted black;
+    }
+    .envoyer {
+      margin-left: .50rem;
+      margin-bottom: .25rem;
+      border-radius: 32px;
+    }
+    /* ************
+      
+       Page Prestation
+      
+      * ************/
+    .forfait {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    #choixprestation {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    /* ***********
+      
+          Page Carousel
+      
+      * ************/
+    div {
+      grid-column: 1/5;
+      grid-row: 2 auto;
+    }
+    .responsive {
+      width: 100vw;
+      height: auto;
+    }
+  }
+  
+  
+  /* ***********
+  
+  For large desktop
+  
+  * ***********/
+  
+  @media only screen and (min-width: 1200px) {
+    * {
+      box-sizing: border-box;
+    }
+    .wrapper {
+      max-width: 1900px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+    header {
+      grid-column: 1/ 5;
+      grid-row: 1;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 99vw;
+      height: 55vh;
+    }
+    nav {
+      margin-top: 43vh;
+      margin-left: 25%;
+      display: inline-block;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    footer {
+      grid-column: 1/ 5;
+      grid-row: 3;
+      border: .2rem dotted hsl(95, 65%, 55%);
+      width: 99vw;
+      height: 30vh;
+    }
+    /* ************
+      
+          Page Index
+      
+      * ************/
+    .presentation {
+      grid-column: 2 / 4;
+      grid-row: 2;
+    }
+    .paragraphe {
+      margin-top: 5vh;
+      padding: .5rem;
+      border: .2rem dotted hsl(95, 65%, 55%);
+    }
+    /* ***********
+      
+          Page Contact
+      
+      * ************/
+    .information {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin: .1rem;
+    }
+    /*.avertissement{} */
+    #joindre {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      border: .1rem dashed hsl(95, 65%, 55%);
+      border-radius: 10px;
+      width: 100%;
+    }
+    .formul {
+      margin-top: 1rem;
+    }
+    label {
+      display: inline-block;
+      text-align: left;
+      margin-left: .5rem;
+      width: 35vw;
+    }
+    input {
+      font: 1rem sans-serif;
+      width: 45vw;
+      box-sizing: border-box;
+      border: .1rem dotted black;
+      margin-left: .25rem;
+    }
+    textarea {
+      height: 13rem;
+      width: 45vw;
+      margin-left: .25rem;
+      border: .1rem dotted black;
+    }
+    .envoyer {
+      margin-left: .50rem;
+      margin-bottom: .25rem;
+      border-radius: 32px;
+    }
+    /* ************
+      
+       Page Prestation
+      
+      * ************/
+    .forfait {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    #choixprestation {
+      grid-column: 2 / 4;
+      grid-row: 1;
+      margin-top: 2rem;
+    }
+    /* ***********
+      
+          Page Carousel
+      
+      * ************/
+    div {
+      grid-column: 1/5;
+      grid-row: 2 auto;
+    }
+    .responsive {
+      width: 99vw;
+      height: auto;
+    }
+  }
