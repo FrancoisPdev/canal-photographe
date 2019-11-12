@@ -1,5 +1,7 @@
 # canal-photographe
 ###### Bienvenue web surfer
+![demo](https://img.shields.io/badge/Build-HTML5-brightgreen)
+![demo](https://img.shields.io/badge/Build-CSS3-brightgreen)
 
 Voici un de mes projets static.
 
